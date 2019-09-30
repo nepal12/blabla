@@ -14,7 +14,7 @@ description: BlaBla chat
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.2.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
@@ -30,6 +30,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_launcher_icons: ^0.7.2+1
+  infinite_listview: ^1.0.0
 
 flutter_icons:
   ios: true
@@ -49,6 +50,7 @@ flutter_icons:
 flutter:
   assets:
     - assets/
+    - assets/launcher/
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
