@@ -14,7 +14,7 @@ class _CircleIndicatorState extends State<CircleIndicator> {
   @override
   Widget build(BuildContext context) {
     return AnimatedContainer(
-      duration: Duration(milliseconds: 500),
+      duration: Duration(milliseconds: 600),
       margin: EdgeInsets.symmetric(horizontal: 8),
       height: widget.isActive ? 12 : 8,
       width: widget.isActive ? 12 : 8,

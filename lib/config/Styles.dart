@@ -8,8 +8,8 @@ class Styles{
       fontSize: 20); // Text style for the name
 
   static TextStyle numberPickerHeading = TextStyle(
-      fontSize: 30,
-      color: Palette.primaryTextColorLight
+    fontSize: 30,
+        color: Palette.primaryTextColorLight
   );
   static TextStyle textHeadingLight = TextStyle(
       color: Palette.primaryTextColorLight,
@@ -26,18 +26,27 @@ class Styles{
   static TextStyle subHeadingLight = TextStyle(
       color: Palette.primaryTextColorLight,
       fontSize: 14);
+  static TextStyle hintText = TextStyle(
+      color: Palette.hintTextColor
+  );
   static TextStyle hintTextLight = TextStyle(
-      color: Palette.secondaryTextColorLight
+    color: Palette.hintTextColorLight
   );
   static TextStyle text = TextStyle(
+    fontSize: 12,
       color: Palette.secondaryTextColor);
   static TextStyle textLight = TextStyle(
-      color: Palette.secondaryTextColorLight
+    color: Palette.secondaryTextColorLight
   );
   static TextStyle subText = TextStyle(
-      color: Palette.greyColor);
+    color: Palette.greyColor);
   static TextStyle date = TextStyle(
       color: Palette.greyColor,
       fontSize: 12.0,
       fontStyle: FontStyle.normal);
+  static TextStyle appBarTitle = TextStyle(
+    color: Palette.primaryTextColor,
+    fontWeight: FontWeight.bold,
+    fontSize: 20.0,
+  );
 }
